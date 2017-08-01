@@ -1,0 +1,1 @@
+<font color="green">Lebih mendekatkan diri lah kepada Yang Maha Esa! agar masalah anda cepat selesai.</font>

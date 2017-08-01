@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+body {
+    font-family: "Lucida Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*.main {
+    width: 1000px;
+    margin:0 auto;
+
+}*/
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+   
+}
+
+.header font{
+    font-size: 35px;
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+    .main {width: 1000px; margin: 0 auto; background-color: #fff; height: 100%; display:block; overflow:auto;}
+    .footer {margin: 0 auto; width: 1000px;}
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}
+
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+
+.aside {
+    background-color: #33b5e5;
+    padding: 0px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    float:right;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    text-align: center;
+    font-size: 12px;
+   position: relative;
+     z-index: 1;
+     height: 60px;
+}
+
+.footer2{
+    margin:0 auto;width:1000px;
+}
+
+body {
+    background-color: #494435;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img#ndas{
+  
+    max-width: 50%;
+    height: auto;
+  
+}
+
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background-color: black;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    transition: 0.3s;
+    color: #ccff66;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .main {width: 100%; margin: 0 auto; background-color: #fff; height: 100%; display:block; overflow:auto;}
+    .footer{width: 100%; margin: 0 auto; right: 0; bottom: 0; left: 0; height:60px; padding: 1rem;}
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .footer2{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer{width: 100%; margin: 0 auto; right: 0; bottom: 0; left: 0; height:60px; padding: 1rem;}
+    .main {width: 100%; margin: 0 auto; background-color: #fff; height: 100%; display:block; overflow:auto;}
+    .footer2{width:100%;}
+
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+    .footer{width: 100%; margin: 0 auto; right: 0; bottom: 0; left: 0; height:60px; padding: 1rem;}
+    .main {width: 100%; margin: 0 auto; background-color: #fff; height: 100%; display:block; overflow:auto;}
+   .footer2{width:100%;}
+ 
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.tombol {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04fa01;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.fa-input {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.tombol:hover {background-color: #3e8e41}
+
+.tombol:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.each_article{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.penting{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.penting h3 {
+    font-style: normal;
+}
+
+.penting a{
+    font-style: normal;
+    font-size: 24px;
+}
+
+.artikel{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.submitcantik input[type="submit"]{
+    background-color: #33b5e5;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.submitcantik input[type="submit"]:hover {background-color:#04fa01;}
+.submitcantik input[type="submit"]:active {
+    color: black;
+    background-color: green;
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+

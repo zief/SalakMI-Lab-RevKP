@@ -1,0 +1,1 @@
+<font color="green">Sabar jodoh ada di tangan Yang Maha Esa!</font>

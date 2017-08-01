@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /macemmacem/
+Disallow: /macemmacem/uploads/
+Disallow: /gambar/
+Disallow: /desain/
+Disallow: /belajar.php

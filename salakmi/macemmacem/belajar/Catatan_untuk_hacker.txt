@@ -1,0 +1,7 @@
+
+        SELAMAT	!!!
+===========================
+
+Sampai disini kamu sudah mempelajari salah satu kelemahan dari situs yaitu Directory Traversal atau user bisa mengakses direktori yang tidak seharusnya bisa di akses oleh user.
+
+Terus semangat dalam belajar, karena masih ada banyak ilmu yang belum engkau miliki. Dan masih banyak yang menarik untuk dipelajari.
